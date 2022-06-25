@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+* {
+    font-family: 'Oxygen';
+}
+
+img {
+    width: fit-content;
+    height: 400px;
+    
+}
+
+
+.btn-color {
+    color: rgb(255, 254, 254) !important;
+    background-color: rgba(255, 0, 0, 0.39) !important;
+}
