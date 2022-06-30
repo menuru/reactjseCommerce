@@ -42,7 +42,7 @@ const NavBar = () => {
               </LinkContainer>
               <LinkContainer to="/carrito">
                 <Button className="carrito-btn" variant="dark">
-                  Your cart{" "}
+                  Tu carrito{" "}
                   <Badge bg="primary">
                     {cartList.length === 0 ? 0 : iconCart()}
                   </Badge>

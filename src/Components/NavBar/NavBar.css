@@ -12,10 +12,15 @@
     background-color: rgba(255, 255, 255, 0.06);
 }
 
-.carrito-btn{
-    align-self: right;
-    margin-right: auto;
-}
+
+
+@media (max-width: 1100) {
+    .carrito-btn {
+        background-color: red;
+        margin-right: auto;
+        margin-left: 50px;
+    }
+  }
 
 .nombreConsola{
     color: white;
