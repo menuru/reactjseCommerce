@@ -44,7 +44,7 @@ const NavBar = () => {
                 <Button className="carrito-btn" variant="dark">
                   Tu carrito{" "}
                   <Badge bg="primary">
-                    {cartList.length === 0 ? 0 : iconCart()}a
+                    {cartList.length === 0 ? 0 : iconCart()}
                   </Badge>
                 </Button>
               </LinkContainer>
