@@ -11,7 +11,7 @@ const CartTable = ({item}) => {
                             <td>{item.product.name}</td>
                             <td>{item.quantity}</td>
                             <td>${item.product.price}</td>
-                            <td><Button className='btn-eliminar' onClick={()=>{removeProduct(item.product.id)}}>
+                            <td><Button className='btn-custom' onClick={()=>{removeProduct(item.product.id)}}>
                             <i class="fi fi-rr-trash"> </i>Eliminar
                             </Button></td>
                         </tr>

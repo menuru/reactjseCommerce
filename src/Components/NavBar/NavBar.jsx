@@ -13,7 +13,7 @@ const NavBar = () => {
         <Container>
           <LinkContainer to="/">
             <Navbar.Brand className="todoLogo">
-              <img className="logo" src={imgLogo} /> <span className="logoName">NOT A SIMPLE GAMER</span> 
+              <img className="logo" src={imgLogo} /> <span className="logo-name">NOT A SIMPLE GAMER</span> 
             </Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -27,7 +27,7 @@ const NavBar = () => {
               </LinkContainer>
               <LinkContainer to={`plataforma/pc`}>
                 <Nav.Link className="nombre-plataforma">
-                    <img className="img-plataforma" src="https://img.icons8.com/material/96/000000/windows-client--v1.png" alt="" width='20px' height='20px' />
+                    <img className="img-plataforma" src="https://img.icons8.com/material/96/000000/windows-client--v1.png" alt="pc" width='20px' height='20px' />
                     
                     <span> | PC</span>
                     
@@ -42,7 +42,7 @@ const NavBar = () => {
               </LinkContainer>
               <LinkContainer to="/carrito">
                 <Button className="carrito-btn" variant="dark">
-                  Tu carrito{" "}
+                  Mi carrito{" "}
                   <Badge bg="primary">
                     {cartList.length === 0 ? 0 : iconCart()}
                   </Badge>

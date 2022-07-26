@@ -14,7 +14,7 @@ const Item = ({ products }) => {
                     </Card.Body>
                     <Card.Footer className="d-flex justify-content-center">
                         <Button className="py-2 px-3 mt-2 mb-3 color-btn" size="sm">
-                            Get more information...
+                            Más información...
                         </Button>
                      
                     </Card.Footer>
